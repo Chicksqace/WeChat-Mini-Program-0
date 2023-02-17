@@ -1,0 +1,7 @@
+<view hover-class="hover_class">
+  index9
+</view>
+<view>
+  <text user-select>index &nabla;text</text>
+  <text decode="{{true}}">index &nbsp; text</text>
+</view>

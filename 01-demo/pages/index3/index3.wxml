@@ -1,0 +1,14 @@
+<view>
+hello world || {{msg}}
+<view>num:{{num}}</view>
+<view>isBoy:{{isBoy}}</view>
+<view>
+  Person.name {{Person.name}} --- height:{{Person.height}}
+</view>
+<view id="{{title}}">
+  title
+</view>
+<view>
+  <checkbox checked="{{false}}"/>
+</view>
+</view>

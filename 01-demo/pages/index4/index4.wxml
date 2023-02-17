@@ -1,0 +1,15 @@
+<view>
+  <checkbox checked="{{isChecked?true:false}}"/>
+</view>
+<view>
+  {{num1+num2}}   {{str1+str2}}
+</view>
+<view wx:if="{{num3>=30 ? true : false}}">
+  <checkbox checked="{{num3>=30 ? true : false}}"/>
+</view>
+<view>
+  111
+</view>
+<view hidden="{{num3>=30 ? true : false}}">
+  <checkbox checked="{{num3>=30 ? true : false}}"/>
+</view>
